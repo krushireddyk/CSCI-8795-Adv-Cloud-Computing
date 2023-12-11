@@ -1,1 +1,6 @@
-# CSCI-8795-Adv-Cloud-Computing
+# Weather Data Analysis with Serverless Cloud Computing
+
+## CSCI-8795-Adv-Cloud-Computing
+## Team members: Pooja Dulam, Krushi Karukala
+
+This project develops a weather prediction system using 3 different machine learning models and a deep learning model deployed on Google Cloud Functions. And the project evaluates these models focusing on key performance metrics. This project involves a weather dataset from Kaggle \cite{b1} for training the models. This dataset is stored on Google Cloud Storage, so that it can be accessed from Cloud Functions. This project involves machine learning models, Logistic regression, Random Forest, Support Vector Machine and a deep learning model, Long Short-Term Memory for model training and weather prediction. The comparison of these metrics provides a comprehensive understanding of each model that is deployed using Cloud Functions. The results obtained show that training and inference can be done for machine learning models and deep learning models using cloud functions while maintaining efficiency and low cost of execution.
